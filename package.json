@@ -1,0 +1,25 @@
+{
+  "name": "be-subito",
+  "version": "1.0.0",
+  "description": "Test project for Subito.it",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "nyc ./node_modules/mocha/bin/mocha test/*.test.js"
+  },
+  "keywords": [
+    "bfs",
+    "maze",
+    "test"
+  ],
+  "author": "Giovanni Limatola",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "3.5.0"
+  },
+  "dependencies": {
+    "chai": "^4.3.4",
+    "dotenv": "^8.2.0",
+    "nyc": "^15.1.0"
+  }
+}

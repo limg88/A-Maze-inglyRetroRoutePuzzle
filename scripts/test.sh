@@ -1,0 +1,1 @@
+docker run --entrypoint npm mytest run test
